@@ -46,6 +46,14 @@
     padding-top: 25px; 
 }
 
+#resume .card {
+    height: 500px;
+}
+
+ #resume .card img {
+    height: 300px;
+}
+
 /* PORTFOLIO */
 #portfolio .card {
     width: 350px;
