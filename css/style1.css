@@ -1,0 +1,61 @@
+/*-- NAVBAR --*/
+#main-navbar a{
+    border-bottom: 5px solid #F8F9FA;
+    text-transform: uppercase;
+}
+
+#main-navbar a:hover, #main-navbar .active {
+    border-bottom-color: black;
+    transition: border-color 500ms;
+}
+
+
+/*-- SHOWCASE --*/
+#showcase {
+    background: url('../img/exp4.jpg');
+    height: 600px;
+    padding-top: 150px;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+#showcase .col img {
+    margin-top: 150px;
+    height: 150px;
+    width: 150px;
+}
+
+/* ABOUT */
+#about .card-body img {
+    margin-top: -70px;
+    width: 100px;
+}
+
+.dark-overlay {
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 600px;
+}
+
+/* RESUME */
+#resume .card-start h5 {
+    padding-top: 25px; 
+}
+
+/* PORTFOLIO */
+#portfolio .card {
+    width: 350px;
+}
+
+.card-body img {
+    margin-top: -70px;
+    width: 100px;
+}
+
+
+
+/*-- Nonaktifkan XXL Breakpoint --*/
